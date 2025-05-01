@@ -11,6 +11,20 @@ const PORT = process.env.PORT || 3000;
 
 // Enable CORS
 app.use(cors());
+
+// Enable CORS with preflight support
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
+
+// Handle preflight OPTIONS requests globally
+app.options("*", (req, res) => {
+  res.sendStatus(200);
+});
+
+
 app.use(express.json());
 
 // Create an MCP server
