@@ -97,20 +97,22 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
     - Input:<br>
         - `keywords` (string[]): Array containing the requested keywords.<br>
 
+#### 3. Site Explorer Tools
+  - **get_domains_overview**<br>
+    - Retrieves a comprehensive SEO performance summary for a specific domain.<br>
+    - Inputs:<br>
+        - `input` (string): Requested url, domain or root domain.<br>
+        - `requested_data` (string[]): Requested data for the given url or domain, corresponding to the content of different sections of the haloscan overview page.<br>
 
-## Installation
+  - **get_domains_positions**<br>
+    - Retrieves the search engine ranking positions of a specified domain for one or more keywords.<br>
+    - Input:<br>
+        - `input` (string): Requested url, domain or root domain.<br>
 
-```bash
-# Clone the repository
-git clone https://github.com/Cryptoptimiste/HaloscanMCPServer.git
-cd HaloscanMCPServer
-
-# Install dependencies
-npm install
-
-# Build the project
-npm run build
-```
+  - **get_domains_top_pages**<br>
+    - Retrieves the top-performing pages of a specified domain based on organic search metrics such as traffic, number of ranking keywords, and visibility.<br>
+    - Input:<br>
+        - `input` (string): Requested url, domain or root domain.<br>
 
 ## Configuration
 1. Sign up for an [Haloscan account](https://tool.haloscan.com/sign-up).
