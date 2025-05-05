@@ -123,22 +123,22 @@ Add this to your `claude_desktop_config.json`:
 
 ### NPX
 
-{
-  "mcpServers": {
-    "haloscan": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/haloscan-server",
-        "start"  
-      ],
-      "env": {
-        "NODE_ENV": "production",
-        "HALOSCAN_API_KEY": "haloscan_api_key"
-      }
-    }
-  }
-}
+{<br>
+  "mcpServers": {<br>
+    "haloscan": {<br>
+      "command": "npx",<br>
+      "args": [<br>
+        "-y",<br>
+        "@modelcontextprotocol/haloscan-server",<br>
+        "start"  <br>
+      ],<br>
+      "env": {<br>
+        "NODE_ENV": "production",<br>
+        "HALOSCAN_API_KEY": "haloscan_api_key"<br>
+      }<br>
+    }<br>
+  }<br>
+}<br>
 
 
 Usage
