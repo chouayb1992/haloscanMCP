@@ -114,6 +114,20 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
     - Input:<br>
         - `input` (string): Requested url, domain or root domain.<br>
 
+  - **get_domains_history_positions**<br>
+    - Retrieves a comprehensive SEO performance summary for a specific domain.<br>
+    - Inputs:<br>
+        - `input` (string): Requested url or domain.<br>
+        - `date_from` (string): Date in YYYY-MM-DD format.<br>
+        - `date_to` (string): Date in YYYY-MM-DD format.<br>
+
+  - **get_domains_history_pages**<br>
+    - Retrieves a comprehensive SEO performance summary for a specific domain.<br>
+    - Inputs:<br>
+        - `input` (string): Requested url or domain.<br>
+        - `date_from` (string): Date in YYYY-MM-DD format.<br>
+        - `date_to` (string): Date in YYYY-MM-DD format.<br>
+
 ## Configuration
 1. Sign up for an [Haloscan account](https://tool.haloscan.com/sign-up).
 2. Choose a plan.
