@@ -12,9 +12,7 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
 - Easy integration with workflow automation tools like N8N
 
 
-## API
-
-### Tools
+## Tools
 
 #### 1. User Tools
 
