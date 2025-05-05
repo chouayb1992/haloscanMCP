@@ -1,13 +1,22 @@
-MCP Haloscan Server
-A Model Context Protocol (MCP) server for interacting with the Haloscan SEO API. This server allows easy integration with Claude for Desktop, N8N, and other MCP-compatible clients.
-Features
+# MCP Haloscan Server
 
-Expose Haloscan SEO API functionality through MCP tools
-Provide prompts for common SEO tasks
-Easy integration with workflow automation tools like N8N
+A Model Context Protocol (MCP) server for interacting with the Haloscan SEO API.  
+This server allows easy integration with Claude for Desktop, N8N, and other MCP-compatible clients.
 
-Installation
-bash# Clone the repository
+---
+
+## Features
+
+- Exposes Haloscan SEO API functionality through MCP tools
+- Provides prompts for common SEO tasks
+- Easy integration with workflow automation tools like N8N
+
+---
+
+## Installation
+
+```bash
+# Clone the repository
 git clone https://github.com/yourusername/mcp-haloscan-server.git
 cd mcp-haloscan-server
 
@@ -16,6 +25,12 @@ npm install
 
 # Build the project
 npm run build
+
+# API
+
+# Tools
+
+ - get_user_credit
 Usage
 Environment Variables
 Set your Haloscan API key as an environment variable:
