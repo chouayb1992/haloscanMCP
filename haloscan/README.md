@@ -17,8 +17,8 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mcp-haloscan-server.git
-cd mcp-haloscan-server
+git clone https://github.com/Cryptoptimiste/HaloscanMCPServer.git
+cd HaloscanMCPServer
 
 # Install dependencies
 npm install
@@ -35,7 +35,6 @@ npm run build
 
   - **get_user_credit**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ 
 
 #### 2. Keyword Explorer Tools
   - **get_keywords_overview**<br>
