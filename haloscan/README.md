@@ -115,18 +115,40 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
         - `input` (string): Requested url, domain or root domain.<br>
 
   - **get_domains_history_positions**<br>
-    - Retrieves a comprehensive SEO performance summary for a specific domain.<br>
+    - Retrieves historical ranking positions for a specific domain across selected keywords.<br>
     - Inputs:<br>
         - `input` (string): Requested url or domain.<br>
         - `date_from` (string): Date in YYYY-MM-DD format.<br>
         - `date_to` (string): Date in YYYY-MM-DD format.<br>
 
   - **get_domains_history_pages**<br>
-    - Retrieves a comprehensive SEO performance summary for a specific domain.<br>
+    - Retrieves historical SEO performance data for the top pages of a specified domain.<br>
     - Inputs:<br>
         - `input` (string): Requested url or domain.<br>
         - `date_from` (string): Date in YYYY-MM-DD format.<br>
         - `date_to` (string): Date in YYYY-MM-DD format.<br>
+
+  - **get_page_best_keywords**<br>
+    - Retrieves the top-performing keywords for a specific URL, showing which search queries drive the most traffic and visibility to that page.<br>
+    - Input:<br>
+        - `input` (string[]): Requested urls.<br>
+        
+  - **get_domains_keywords**<br>
+    - Retrieves all the keywords a domain ranks for in organic search results, along with their associated metrics such as ranking position, traffic, and search volume.<br>
+    - Inputs:<br>
+        - `input` (string): Requested url or domain.<br>
+        - `keywords` (string[]): Array containing the requested keywords.<br>
+
+  - **get_domains_bulk**<br>
+    - Retrieves SEO performance metrics for multiple domains in a single request.<br>
+    - Input:<br>
+        - `inputs` (string[]): Array containing the requested urls or domains.<br>
+
+  - **get_domains_competitors**<br>
+    - Retrieves a list of organic search competitors for a given domain based on overlapping keywords.<br>
+    - Input:<br>
+        - `input` (string): Requested url or domain.<br>
+
 
 ## Configuration
 1. Sign up for an [Haloscan account](https://tool.haloscan.com/sign-up).
