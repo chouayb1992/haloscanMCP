@@ -43,7 +43,59 @@ npm run build
   - get_keywords_match<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input: keyword (string)<br>
+
+  - get_keywords_similar<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_highlights<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_related<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_questions<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_synonyms<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_find<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_site_structure<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_serp_compare<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
     ∘ Input: requested_data (string[])<br>
+
+  - get_keywords_serp_availableDates<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+
+  - get_keywords_serp_pageEvolution<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Inputs:<br>
+      ▪ keyword (string): Requested keyword.<br>
+      ▪ first_date (string): Date in YYYY-MM-DD format.<br>
+      ▪ second_date (string): Date in YYYY-MM-DD format.<br>
+      ▪ url (string)<br>
+
+  - get_keywords_bulk<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keywords (string[]): Array containing the requested keywords.<br>
+
+  - get_keywords_scrap<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keywords (string[]): Array containing the requested keywords.<br>
 
 ---
 
