@@ -3,7 +3,7 @@
 A Model Context Protocol (MCP) server for interacting with the Haloscan SEO API.  
 This server allows easy integration with Claude for Desktop, N8N, and other MCP-compatible clients.
 
----
+
 
 ## Features
 
@@ -11,7 +11,6 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
 - Provides prompts for common SEO tasks
 - Easy integration with workflow automation tools like N8N
 
----
 
 ## API
 
@@ -100,7 +99,6 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
     ∘ Input:<br>
         ▪ `keywords` (string[]): Array containing the requested keywords.<br>
 
----
 
 ## Installation
 
