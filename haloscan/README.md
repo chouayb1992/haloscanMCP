@@ -82,23 +82,23 @@ npm run build
         ▪ `keywords_sources` (string): Which strategies to use to find keywords from input (Any combination of [match, serp, related, highlights, categories, questions]).<br>
 
   - **get_keywords_site_structure**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves the site structure data for a given domain, including the keywords associated with the site's pages, hierarchical organization, and relevant metadata for SEO optimization.<br>
     ∘ Input:<br> 
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_serp_compare**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves a comparison of search engine results pages (SERP) for two or more keywords, providing insights into how they perform in search rankings.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
         ▪ `period` (string): The comparison period for SERPs (1 month, 3 months, 6 months, 12 months, custom).<br>
 
   - **get_keywords_serp_availableDates**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves the available dates for historical SERP data of a given keyword at a given period.<br>
     ∘ Input:<br> 
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_serp_pageEvolution**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves the evolution of SERP rankings for a specific keyword over time, showing how a page's position in search results has changed.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
         ▪ `first_date` (string): Date in YYYY-MM-DD format.<br>
@@ -106,12 +106,12 @@ npm run build
         ▪ `url` (string)<br>
 
   - **get_keywords_bulk**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves keyword data for multiple keywords at once in a bulk request.<br>
     ∘ Input:<br> 
         ▪ `keywords` (string[]): Array containing the requested keywords.<br>
 
   - **get_keywords_scrap**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves keyword data by scraping the search engine results pages (SERP) for a given keyword.<br>
     ∘ Input:<br>
         ▪ `keywords` (string[]): Array containing the requested keywords.<br>
 
