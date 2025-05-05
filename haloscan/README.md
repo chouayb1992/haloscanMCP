@@ -31,14 +31,17 @@ npm run build
 
 ### Tools
 
-  - get_user_credit
-    (U+25CB) Retrieves the remaining credit for the user identified by the provided API key.
+  - get_user_credit<br>
+    (U+25CB) Retrieves the remaining credit for the user identified by the provided API key.<br>
     (U+25CB) 
 
-  - get_keywords_overview
-    (U+25CB) Retrieves the remaining credit for the user identified by the provided API key.
-    (U+25CB) Input: keyword (string)
-    (U+25CB) Input: requested_data (string[])
+  - get_keywords_overview<br>
+    (U+25CB) Retrieves the remaining credit for the user identified by the provided API key.<br>
+    (U+25CB) Input: keyword (string)<br>
+    (U+25CB) Input: requested_data (string[])<br>
+
+---
+
 
 Usage
 Environment Variables
