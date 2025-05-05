@@ -94,12 +94,12 @@ npm run build
         ▪ second_date (string): Date in YYYY-MM-DD format.<br>
         ▪ url (string)<br>
 
-  - get_keywords_bulk<br>
+  - **get_keywords_bulk**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br> 
-    &nbsp;&nbsp;▪ keywords (string[]): Array containing the requested keywords.<br>
+        ▪ `keywords` (string[]): Array containing the requested keywords.<br>
 
-  - **get_keywords_scrap**
+  - **get_keywords_scrap**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
         ▪ `keywords` (string[]): Array containing the requested keywords.<br>
