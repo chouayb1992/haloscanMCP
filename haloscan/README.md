@@ -37,32 +37,39 @@ npm run build
 
   - get_keywords_overview<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
-    ∘ Input: requested_data (string[])<br>
+    ∘ Inputs:<br>
+        ▪ keyword (string): Requested keyword.<br>
+        ▪ requested_data (string[]): Any combination of [keyword_match, related_search, related_question, similar_category, similar_serp, top_sites, similar_highlight, categories, synonyms, metrics, volume_history, serp ]<br>
 
   - get_keywords_match<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Input:<br>
+        ▪ keyword (string): Requested keyword.<br>
 
   - get_keywords_similar<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Input:<br>
+        ▪ keyword (string): Requested keyword.<br>
 
   - get_keywords_highlights<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Input:<br>
+        ▪ keyword (string): Requested keyword.<br>
 
   - get_keywords_related<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Input:<br>
+        ▪ keyword (string): Requested keyword.<br>
 
   - get_keywords_questions<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Input:<br>
+        ▪ keyword (string): Requested keyword.<br>
 
   - get_keywords_synonyms<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Input:<br>
+        ▪ keyword (string): Requested keyword.<br>
 
   - get_keywords_find<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
@@ -102,7 +109,7 @@ npm run build
   - **get_keywords_scrap**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
-       - ▪ `keywords` (string[]): Array containing the requested keywords.<br>
+        ▪ `keywords` (string[]): Array containing the requested keywords.<br>
 
 ---
 
