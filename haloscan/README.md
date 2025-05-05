@@ -50,32 +50,32 @@ npm run build
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_similar**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves the list of keywords that are semantically or topically similar to a given keyword.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_highlights**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves the key performance highlights from a given keyword.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_related**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves the list of keywords that are contextually or topically related to a given keyword.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_questions**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves a list of question-based keywords related to a given keyword.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - **get_keywords_synon**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+  - **get_keywords_synonyms**<br>
+    ∘ Retrieves a list of synonyms related to a given keyword.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_find**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves comprehensive data for a given keyword or list of keywords, including search volume, competition, and trend analysis.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
         ▪ `keywords` (string[]): Requested keywords.<br>
