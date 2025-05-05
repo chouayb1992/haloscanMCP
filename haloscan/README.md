@@ -25,6 +25,7 @@ npm install
 
 # Build the project
 npm run build
+```
 
 # API
 
