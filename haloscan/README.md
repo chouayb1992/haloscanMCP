@@ -17,44 +17,44 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
 #### 1. User Tools
 
   - **get_user_credit**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    - Retrieves the remaining credit for the user identified by the provided API key.<br>
 
 #### 2. Keyword Explorer Tools
   - **get_keywords_overview**<br>
-    ∘ Retrieves an overview of a specific keyword, providing key performance indicators such as search volume, competition level, and trends over time.<br>
-    ∘ Inputs:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
-        ▪ `requested_data` (string[]): Any combination of [keyword_match, related_search, related_question, similar_category, similar_serp, top_sites, similar_highlight, categories, synonyms, metrics, volume_history, serp ].<br>
+    - Retrieves an overview of a specific keyword, providing key performance indicators such as search volume, competition level, and trends over time.<br>
+    - Inputs:<br>
+        - `keyword` (string): Requested keyword.<br>
+        - `requested_data` (string[]): Any combination of [keyword_match, related_search, related_question, similar_category, similar_serp, top_sites, similar_highlight, categories, synonyms, metrics, volume_history, serp ].<br>
 
   - **get_keywords_match**<br>
-    ∘ Retrieves keyword data based on an exact match search, providing detailed insights into how the specific keyword performs in search engines.<br>
-    ∘ Input:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves keyword data based on an exact match search, providing detailed insights into how the specific keyword performs in search engines.<br>
+    - Input:<br>
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_similar**<br>
-    ∘ Retrieves the list of keywords that are semantically or topically similar to a given keyword.<br>
-    ∘ Input:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves the list of keywords that are semantically or topically similar to a given keyword.<br>
+    - Input:<br>
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_highlights**<br>
-    ∘ Retrieves the key performance highlights from a given keyword.<br>
-    ∘ Input:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves the key performance highlights from a given keyword.<br>
+    - Input:<br>
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_related**<br>
-    ∘ Retrieves the list of keywords that are contextually or topically related to a given keyword.<br>
-    ∘ Input:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves the list of keywords that are contextually or topically related to a given keyword.<br>
+    - Input:<br>
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_questions**<br>
-    ∘ Retrieves a list of question-based keywords related to a given keyword.<br>
-    ∘ Input:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves a list of question-based keywords related to a given keyword.<br>
+    - Input:<br>
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_synonyms**<br>
-    ∘ Retrieves a list of synonyms related to a given keyword.<br>
-    ∘ Input:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves a list of synonyms related to a given keyword.<br>
+    - Input:<br>
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_find**<br>
     - Retrieves comprehensive data for a given keyword or list of keywords, including search volume, competition, and trend analysis.<br>
@@ -64,38 +64,38 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
         - `keywords_sources` (string[]): Which strategies to use to find keywords from input (Any combination of [match, serp, related, highlights, categories, questions]).<br>
 
   - **get_keywords_site_structure**<br>
-    ∘ Retrieves the site structure data for a given domain, including the keywords associated with the site's pages, hierarchical organization, and relevant metadata for SEO optimization.<br>
-    ∘ Input:<br> 
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves the site structure data for a given domain, including the keywords associated with the site's pages, hierarchical organization, and relevant metadata for SEO optimization.<br>
+    - Input:<br> 
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_serp_compare**<br>
-    ∘ Retrieves a comparison of search engine results pages (SERP) for two or more keywords, providing insights into how they perform in search rankings.<br>
-    ∘ Inputs:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
-        ▪ `period` (string): The comparison period for SERPs (1 month, 3 months, 6 months, 12 months, custom).<br>
+    - Retrieves a comparison of search engine results pages (SERP) for two or more keywords, providing insights into how they perform in search rankings.<br>
+    - Inputs:<br>
+        - `keyword` (string): Requested keyword.<br>
+        - `period` (string): The comparison period for SERPs (1 month, 3 months, 6 months, 12 months, custom).<br>
 
   - **get_keywords_serp_availableDates**<br>
-    ∘ Retrieves the available dates for historical SERP data of a given keyword at a given period.<br>
-    ∘ Input:<br> 
-        ▪ `keyword` (string): Requested keyword.<br>
+    - Retrieves the available dates for historical SERP data of a given keyword at a given period.<br>
+    - Input:<br> 
+        - `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_serp_pageEvolution**<br>
-    ∘ Retrieves the evolution of SERP rankings for a specific keyword over time, showing how a page's position in search results has changed.<br>
-    ∘ Inputs:<br>
-        ▪ `keyword` (string): Requested keyword.<br>
-        ▪ `first_date` (string): Date in YYYY-MM-DD format.<br>
-        ▪ `second_date` (string): Date in YYYY-MM-DD format.<br>
-        ▪ `url` (string)<br>
+    - Retrieves the evolution of SERP rankings for a specific keyword over time, showing how a page's position in search results has changed.<br>
+    - Inputs:<br>
+        - `keyword` (string): Requested keyword.<br>
+        - `first_date` (string): Date in YYYY-MM-DD format.<br>
+        - `second_date` (string): Date in YYYY-MM-DD format.<br>
+        - `url` (string)<br>
 
   - **get_keywords_bulk**<br>
-    ∘ Retrieves keyword data for multiple keywords at once in a bulk request.<br>
-    ∘ Input:<br> 
-        ▪ `keywords` (string[]): Array containing the requested keywords.<br>
+    - Retrieves keyword data for multiple keywords at once in a bulk request.<br>
+    - Input:<br> 
+        - `keywords` (string[]): Array containing the requested keywords.<br>
 
   - **get_keywords_scrap**<br>
-    ∘ Retrieves keyword data by scraping the search engine results pages (SERP) for a given keyword.<br>
-    ∘ Input:<br>
-        ▪ `keywords` (string[]): Array containing the requested keywords.<br>
+    - Retrieves keyword data by scraping the search engine results pages (SERP) for a given keyword.<br>
+    - Input:<br>
+        - `keywords` (string[]): Array containing the requested keywords.<br>
 
 
 ## Installation
