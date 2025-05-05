@@ -99,10 +99,10 @@ npm run build
     ∘ Input:<br> 
     &nbsp;&nbsp;▪ keywords (string[]): Array containing the requested keywords.<br>
 
-  - get_keywords_scrap<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input:<br> 
-    &nbsp;&nbsp;▪ keywords (string[]): Array containing the requested keywords.<br>
+  - **get_keywords_scrap**
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.
+    ∘ Input:
+        ▪ `keywords` (string[]): Array containing the requested keywords.
 
 ---
 
