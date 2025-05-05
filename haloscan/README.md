@@ -114,7 +114,8 @@ npm run build
 
 ## Configuration
 1. Sign up for an [Haloscan account](https://tool.haloscan.com/sign-up)
-
+2. Choose a plan
+3. Generate your API key [from Configuration API page](https://tool.haloscan.com/user/api)
 
 ## Usage with Claude Desktop
 
