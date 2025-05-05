@@ -31,65 +31,65 @@ npm run build
 
 ### Tools
 
-  - get_user_credit<br>
+  - **get_user_credit**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ 
 
-  - get_keywords_overview<br>
+  - **get_keywords_overview**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
         ▪ `requested_data` (string[]): Any combination of [keyword_match, related_search, related_question, similar_category, similar_serp, top_sites, similar_highlight, categories, synonyms, metrics, volume_history, serp ]<br>
 
-  - get_keywords_match<br>
+  - **get_keywords_match**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - get_keywords_similar<br>
+  - **get_keywords_similar**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - get_keywords_highlights<br>
+  - **get_keywords_highlights**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - get_keywords_related<br>
+  - **get_keywords_related**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - get_keywords_questions<br>
+  - **get_keywords_questions**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - get_keywords_synonyms<br>
+  - **get_keywords_synon**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - get_keywords_find<br>
+  - **get_keywords_find**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
         ▪ `keywords` (string[]): Requested keywords.<br>
         ▪ `keywords_sources` (string): Which strategies to use to find keywords from input (Any combination of [match, serp, related, highlights, categories, questions]).<br>
 
-  - get_keywords_site_structure<br>
+  - **get_keywords_site_structure**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br> 
         ▪ `keyword` (string): Requested keyword.<br>
 
-  - get_keywords_serp_compare<br>
+  - **get_keywords_serp_compare**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
         ▪ `period` (string): The comparison period for SERPs (1 month, 3 months, 6 months, 12 months, custom).<br>
 
-  - get_keywords_serp_availableDates<br>
+  - **get_keywords_serp_availableDates**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br> 
         ▪ `keyword` (string): Requested keyword.<br>
