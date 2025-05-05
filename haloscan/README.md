@@ -39,13 +39,13 @@ npm run build
 
 #### 2. Keyword Explorer Tools
   - **get_keywords_overview**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves an overview of a specific keyword, providing key performance indicators such as search volume, competition level, and trends over time.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
         ▪ `requested_data` (string[]): Any combination of [keyword_match, related_search, related_question, similar_category, similar_serp, top_sites, similar_highlight, categories, synonyms, metrics, volume_history, serp ].<br>
 
   - **get_keywords_match**<br>
-    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Retrieves keyword data based on an exact match search, providing detailed insights into how the specific keyword performs in search engines.<br>
     ∘ Input:<br>
         ▪ `keyword` (string): Requested keyword.<br>
 
