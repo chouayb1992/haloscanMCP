@@ -27,9 +27,9 @@ npm install
 npm run build
 ```
 
-# API
+## API
 
-# Tools
+### Tools
 
  - get_user_credit
 Usage
