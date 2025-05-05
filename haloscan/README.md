@@ -40,6 +40,11 @@ npm run build
     ∘ Input: keyword (string)<br>
     ∘ Input: requested_data (string[])<br>
 
+  - get_keywords_match<br>
+    ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
+    ∘ Input: keyword (string)<br>
+    ∘ Input: requested_data (string[])<br>
+
 ---
 
 
