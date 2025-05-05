@@ -66,7 +66,10 @@ npm run build
 
   - get_keywords_find<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Inputs:<br>
+        ▪ keyword (string): Requested keyword.<br>
+        ▪ keywords (string[]): Requested keywords.<br>
+        ▪ keywords_sources (string): Which strategies to use to find keywords from input (Any combination of [match, serp, related, highlights, categories, questions]).<br>
 
   - get_keywords_site_structure<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
@@ -74,28 +77,32 @@ npm run build
 
   - get_keywords_serp_compare<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
-    ∘ Input: requested_data (string[])<br>
+    ∘ Inputs:<br>
+        ▪ keyword (string): Requested keyword.<br>
+        ▪ period (string): The comparison period for SERPs (1 month, 3 months, 6 months, 12 months, custom).<br>
 
   - get_keywords_serp_availableDates<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keyword (string)<br>
+    ∘ Input:<br> 
+        ▪ keyword (string): Requested keyword.<br>
 
   - get_keywords_serp_pageEvolution<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Inputs:<br>
-      ▪ keyword (string): Requested keyword.<br>
-      ▪ first_date (string): Date in YYYY-MM-DD format.<br>
-      ▪ second_date (string): Date in YYYY-MM-DD format.<br>
-      ▪ url (string)<br>
+        ▪ keyword (string): Requested keyword.<br>
+        ▪ first_date (string): Date in YYYY-MM-DD format.<br>
+        ▪ second_date (string): Date in YYYY-MM-DD format.<br>
+        ▪ url (string)<br>
 
   - get_keywords_bulk<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keywords (string[]): Array containing the requested keywords.<br>
+    ∘ Input:<br> 
+        ▪ keywords (string[]): Array containing the requested keywords.<br>
 
   - get_keywords_scrap<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
-    ∘ Input: keywords (string[]): Array containing the requested keywords.<br>
+    ∘ Input:<br> 
+        ▪ keywords (string[]): Array containing the requested keywords.<br>
 
 ---
 
