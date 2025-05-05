@@ -57,11 +57,11 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
         ▪ `keyword` (string): Requested keyword.<br>
 
   - **get_keywords_find**<br>
-    ∘ Retrieves comprehensive data for a given keyword or list of keywords, including search volume, competition, and trend analysis.<br>
-    ∘ Inputs:<br>
-         ▪ `keyword` (string): Requested keyword.<br>
-         ▪ `keywords` (string[]): Requested keywords.<br>
-         ▪ `keywords_sources` (string[]): Which strategies to use to find keywords from input (Any combination of [match, serp, related, highlights, categories, questions]).<br>
+    - Retrieves comprehensive data for a given keyword or list of keywords, including search volume, competition, and trend analysis.<br>
+    - Inputs:<br>
+        - `keyword` (string): Requested keyword.<br>
+        - `keywords` (string[]): Requested keywords.<br>
+        - `keywords_sources` (string[]): Which strategies to use to find keywords from input (Any combination of [match, serp, related, highlights, categories, questions]).<br>
 
   - **get_keywords_site_structure**<br>
     ∘ Retrieves the site structure data for a given domain, including the keywords associated with the site's pages, hierarchical organization, and relevant metadata for SEO optimization.<br>
