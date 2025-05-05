@@ -14,6 +14,15 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
 
 ## Tools
 
+## brave_web_search
+
+- Execute web searches with pagination and filtering
+
+### Inputs:
+- `query` (string): Search terms
+- `count` (number, optional): Results per page (max 20)
+- `offset` (number, optional): Pagination offset (max 9)
+
 #### 1. User Tools
 
   - **get_user_credit**<br>
