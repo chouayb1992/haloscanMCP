@@ -1,4 +1,4 @@
-# MCP Haloscan Server
+# Haloscan MCP Server
 
 A Model Context Protocol (MCP) server for interacting with the Haloscan SEO API.  
 This server allows easy integration with Claude for Desktop, N8N, and other MCP-compatible clients.
@@ -42,7 +42,7 @@ npm run build
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Inputs:<br>
         ▪ `keyword` (string): Requested keyword.<br>
-        ▪ `requested_data` (string[]): Any combination of [keyword_match, related_search, related_question, similar_category, similar_serp, top_sites, similar_highlight, categories, synonyms, metrics, volume_history, serp ]<br>
+        ▪ `requested_data` (string[]): Any combination of [keyword_match, related_search, related_question, similar_category, similar_serp, top_sites, similar_highlight, categories, synonyms, metrics, volume_history, serp ].<br>
 
   - **get_keywords_match**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
@@ -117,6 +117,10 @@ npm run build
 
 ---
 
+## Usage with Claude Desktop
+
+---
+Add this to your `claude_desktop_config.json`:
 
 Usage
 Environment Variables
