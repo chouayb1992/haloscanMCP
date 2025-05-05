@@ -96,15 +96,15 @@ npm run build
   - **get_keywords_serp_pageEvolution**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Inputs:<br>
-        ▪ keyword (string): Requested keyword.<br>
-        ▪ first_date (string): Date in YYYY-MM-DD format.<br>
-        ▪ second_date (string): Date in YYYY-MM-DD format.<br>
-        ▪ url (string)<br>
+        ▪ `keyword` (string): Requested keyword.<br>
+        ▪ `first_date` (string): Date in YYYY-MM-DD format.<br>
+        ▪ `second_date` (string): Date in YYYY-MM-DD format.<br>
+        ▪ `url` (string)<br>
 
   - **get_keywords_bulk**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Input:<br> 
-       - ▪ `keywords` (string[]): Array containing the requested keywords.<br>
+        ▪ `keywords` (string[]): Array containing the requested keywords.<br>
 
   - **get_keywords_scrap**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
