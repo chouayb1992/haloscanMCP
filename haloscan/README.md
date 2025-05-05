@@ -31,10 +31,13 @@ npm run build
 
 ### Tools
 
+#### User Tools
+
   - **get_user_credit**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ 
 
+#### Keyword Explorer Tools
   - **get_keywords_overview**<br>
     ∘ Retrieves the remaining credit for the user identified by the provided API key.<br>
     ∘ Inputs:<br>
