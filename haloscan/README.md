@@ -122,7 +122,7 @@ npm run build
 Add this to your `claude_desktop_config.json`:
 
 ### NPX
-
+```bash
 {<br>
   "mcpServers": {<br>
     "haloscan": {<br>
@@ -139,7 +139,7 @@ Add this to your `claude_desktop_config.json`:
     }<br>
   }<br>
 }<br>
-
+```
 
 Usage
 Environment Variables
