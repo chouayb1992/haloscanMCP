@@ -112,6 +112,10 @@ npm install
 npm run build
 ```
 
+## Configuration
+1. Sign up for an [Haloscan account](https://tool.haloscan.com/sign-up)
+
+
 ## Usage with Claude Desktop
 
 Add this server to your Claude Desktop configuration file `claude_desktop_config.json`:
