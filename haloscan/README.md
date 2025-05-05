@@ -172,7 +172,8 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
     - Input:<br>
         - `input` (string[]): Array containing the requested urls or domains.<br>
       
-
+  - **get_domains_expired**<br>
+    - Retrieves the visibility trend for a specific domain over time, showing how its search engine visibility has evolved.<br>
 
 
 
