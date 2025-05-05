@@ -114,7 +114,7 @@ npm run build
 
 ## Usage with Claude Desktop
 
-Add this to your `claude_desktop_config.json`:
+Add this server to your Claude Desktop configuration file `claude_desktop_config.json`:
 
 ### NPX
 ```bash
