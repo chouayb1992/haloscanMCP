@@ -730,6 +730,34 @@ export function configureHaloscanServer(server) {
             };
         }
     });
+
+    // Tool to get domains competitors best positions
+    server.tool("get_domains_competitors_best_positions", "Obtenir les meilleures positions des concurrents des domaines.", {
+        competitors: z.array(z.string()).describe("Specific data fields to request"),
+        keywords: z.array(z.string()).describe("Specific data fields to request"),
+    }, async ({ competitors, keywords }) => {
+        try {
+            const data = await makeHaloscanRequest("/domains/siteCompetitors/keywordsDiff", {
+                competitors,
+                keywords
+            }, "POST");
+            return {
+                content: [{
+                        type: "text",
+                        text: JSON.stringify(data, null, 2)
+                    }]
+            };
+        }
+        catch (error) {
+            return {
+                isError: true,
+                content: [{
+                        type: "text",
+                        text: `Error getting domains competitors best positions: ${error instanceof Error ? error.message : String(error)}`
+                    }]
+            };
+        }
+    });
     // Tool to get domains visibility trends
     server.tool("get_domains_visibility_trends", "Obtenir les tendances de visibilité des domaines.", {
         input: z.array(z.string()).describe("Specific data fields to request")

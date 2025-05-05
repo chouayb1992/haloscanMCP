@@ -149,6 +149,32 @@ This server allows easy integration with Claude for Desktop, N8N, and other MCP-
     - Input:<br>
         - `input` (string): Requested url or domain.<br>
 
+  - **get_domains_competitors_keywords_diff**<br>
+    - Compares the keyword differences between a given domain and its competitors, highlighting keywords that one domain ranks for but the other does not.<br>
+    - Inputs:<br>
+        - `input` (string): Requested url or domain.<br>
+        - `competitors` (string[]): List of competitors to compare the input to.<br>
+
+  - **get_domains_competitors_best_pages**<br>
+    - Retrieves the best-performing pages of competitors for a given domain.<br>
+    - Inputs:<br>
+        - `input` (string): Requested url or domain.<br>
+        - `competitors` (string[]): List of competitors to compare the input to.<br>
+
+  - **get_domains_competitors_keywords_best_positions**<br>
+    - Retrieves the best-ranking keywords for a given domain compared to its competitors.<br>
+    - Inputs:<br>
+        - `competitors` (string[]): List of competitor domains or root domains.<br>
+        - `keywords` (string[]): List of keywords to look for.<br>
+
+  - **get_domains_visibility_trends**<br>
+    - Retrieves the visibility trend for a specific domain over time, showing how its search engine visibility has evolved.<br>
+    - Input:<br>
+        - `input` (string[]): Array containing the requested urls or domains.<br>
+      
+
+
+
 
 ## Configuration
 1. Sign up for an [Haloscan account](https://tool.haloscan.com/sign-up).
